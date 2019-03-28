@@ -12,5 +12,5 @@ end
 def assign_rooms(ppl)
   rooms_array = (1..7)to.a 
   ppl.each_with_index.map do |ppl|
-    
+    "Hello, my name is "
   
