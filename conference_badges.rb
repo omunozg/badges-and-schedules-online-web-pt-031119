@@ -10,5 +10,6 @@ end
 
 
 def assign_rooms(ppl)
-  rooms_array = 1..7
+  rooms_array = (1..7)to.a 
+  
   
