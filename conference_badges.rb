@@ -9,12 +9,5 @@ def batch_badge_creator(ppl)
 end
 
 
-def assign_rooms(ppl)
-  rooms_array = (1..7)to.a
-  n = 0
-  room = rooms_array[n]
-  ppl.each_with_index.map do |ppl, room|
-    "Hello, #{ppl}! You'll be assigned to room #{room}!"
-  end
-end
+
   
